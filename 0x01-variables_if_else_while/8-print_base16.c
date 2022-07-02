@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- *Description - Printing base 16 numbers
- *Return:0
- */
+*main - Entry point
+*Description - Printing base 16 numbers
+*Return:0
+*/
 int main(void)
 {
     int i, y;
