@@ -1,9 +1,16 @@
 #include "main.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int _putchar(char c);
+
 /**
-* print_number - that prints an integer
-*@n: print int
-* Return: Always 0.
-*/
+ * print_number - prints numbers
+ * @n: number to be printed
+ * Return:void
+ */
+
 void print_number(int n)
 {
 
@@ -26,4 +33,4 @@ void print_number(int n)
 	}
 
 	_putchar((n1 % 10) + '0');
-}	
+}
